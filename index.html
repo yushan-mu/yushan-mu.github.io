@@ -1,0 +1,49 @@
+<!DOCTYPE html> <!-- tells us which version of html to use -->
+<html> <!-- everything after this is html code -->
+    <head>
+        <title>Yushan Mu | Home</title> <!-- title of the tab -->
+        <meta name="description" content="This is my personal website"> <!-- the meta can be used for a lot of different things -->
+        <!-- this description is what shows up on a google search under the title if the website is searched-->
+        <link rel="stylesheet" href="styles.css" /> <!-- loads the css file -->
+    </head>
+    <body>
+        <header class="main-header"> <!-- tells browser that this is header of our page -->
+            <nav class="nav main-nav"> <!-- tells browser that this is the navigation part, can have multiple but usually only need 1 -->
+                <ul> <!-- unordered list; ol is ordered list -->
+                    <li><a href="index.html">Home</a></li> <!-- list items, can only be used inside an ul or ol -->
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="travel.html">Travel</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- <hr> horizontal rule; supplies horizontal line, this is an empty tag, no longer needed -->
+            <h1 class="my-name-big">Yushan Mu</h1> <!-- heading element; h1 is the largest text, h6 is the smallest -->
+        </header>
+
+        <section class="content-section container"> <!-- grouping of stuff inside one second, similar to header -->
+            <h2 class="section-header">About Me</h2>
+            <p> <!-- paragraph element, smaller text than all headings -->
+                I'm a third-year mathematics major at the University of Waterloo. I am looking to specialize in combinatorics and optimization and minor in music. 
+                I enjoy making music and travelling, especially with friends! There will be some more pictures on the other pages but here is one from when I 
+                performed in an event for KWCSSA :D
+            </p>
+            <img class="my-picture" src="picture_of_me_kwcssa.jpg" width="750"> <!-- this is an example of an empty tag, src is source attribute -->
+            <p> 
+                I am on a school term this term, and I am also working part-time as an IT specialist under the IST Department at the university. For extracurriculars, 
+                I will be participating in Animusic Ensembles and you can watch our concert from last term
+                <a href="https://www.youtube.com/watch?v=dAlz5Y0PA90&t=9953s">here</a>!
+            </p>
+        </section>
+        
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="my-name">Yushan Mu</h3>
+                <ul class="nav footer-nav">
+                    <li><a href="https://space.bilibili.com/266409599"><img src="bilibili logo.png" width="25"></a></li>
+                    <li><a href="https://github.com/yushan-mu"><img src="github logo.png" width="25"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

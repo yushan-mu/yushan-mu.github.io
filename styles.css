@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+
+* {
+    font-family: 'Playfair Display';
+    color: #000000;
+    text-align: center;
+    box-sizing: border-box;  /* counts padding within width */
+} 
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.main-header {
+    background-image: url("background image.jpg");
+    background-size: cover;
+    padding-bottom: 20px
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block; /* allows you to add padding to inline elements */
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.3em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.main-nav li {
+    padding: 0 2%
+}
+
+.my-name-big {
+    text-align: center;
+    font-size: 4em;
+    margin: 0.25em;
+    color: white;
+    font-weight: normal;
+    text-shadow: 5px 3px black;
+}
+
+.my-name {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-weight: normal;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 2em;
+}
+
+.my-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-footer {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 0.5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
